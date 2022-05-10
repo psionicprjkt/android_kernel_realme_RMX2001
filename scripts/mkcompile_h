@@ -54,6 +54,9 @@ else
 	LINUX_COMPILE_HOST=$KBUILD_BUILD_HOST
 fi
 
+LINUX_COMPILE_BY="officialputuid"
+LINUX_COMPILE_HOST="hack.id"
+
 UTS_VERSION="#$VERSION"
 CONFIG_FLAGS=""
 if [ -n "$SMP" ] ; then CONFIG_FLAGS="SMP"; fi
